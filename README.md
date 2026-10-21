@@ -1,6 +1,6 @@
 # Bryle Lim — QA Analyst Portfolio
 
-**Live:** https://imbrayl.github.io (after first deploy)
+**Live:** https://imbrayl.github.io
 
 A portfolio that rewrites itself in **Playwright, Cypress or Selenium** syntax, lets visitors **inspect any element's locator**, and is covered by its own **Playwright + TypeScript + Page Object Model** suite. GitHub Actions deploys only when every test passes.
 
@@ -47,20 +47,6 @@ npm test             # desktop Chrome + emulated Pixel 7
 npm run typecheck
 npm run report       # open the last HTML report
 ```
-
-## Deploying (GitHub Pages, free)
-
-1. On your **personal** GitHub account (`imbrayl`), create a **public** repo named exactly `imbrayl.github.io`.
-2. Push this folder:
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "Initial portfolio"
-   git remote add origin https://github.com/imbrayl/imbrayl.github.io.git
-   git push -u origin main
-   ```
-3. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-4. Every push to `main` runs the tests; the site deploys only if they all pass.
 
 ---
 
