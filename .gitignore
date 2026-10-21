@@ -1,0 +1,7 @@
+node_modules/
+test-results/
+test-output/
+playwright-report/
+site/report/
+resume/private.json
+resume/out/
